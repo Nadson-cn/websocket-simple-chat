@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Rooms | Socket IO</title>
+</head>
+
+<body>
+  <form action="chat.html">
+    <div class="container">
+      <div class="row">
+        <select name="select_room" id="select_room">
+          <option value="-1">Choose a room</option>
+          <option value="node">NodeJs</option>
+          <option value="java">Java</option>
+          <option value="reactjs">ReactJs</option>
+          <option value="go">GoLang</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <label for="">Username:</label>
+        <input type="text" name="username" placeholder="username">
+      </div>
+
+      <div class="row">
+        <button type="submit">
+          Sign In
+        </button>
+      </div>
+    </div>
+  </form>
+</body>
+
+</html>
